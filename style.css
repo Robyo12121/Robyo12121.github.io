@@ -43,30 +43,36 @@ a:hover {
 
 header {
     background-color: #fff;
-    min-height: 60vh;
     text-align: center;
-}
-
-nav {
-    padding-top: 2vh;
-}
-
-nav a {
-    margin: 2vw;
 }
 
 .title {
-    margin: 8em;
+    padding: 10vh;
 }
 
 section {
-    margin: 2vh;
+    padding: 10px;
     text-align: center;
 }
 
+.section-title {
+    margin: 1em;
+}
+
+section p {
+    padding: 0.75em;
+}
+
 footer {
-    min-height: 40vh;
+    min-height: 45vh;
     background-color: #333;
     text-align: center;
+}
+
+.links {
+    padding: 10em;
+}
+footer p {
+    padding: 1em;
 }
 
