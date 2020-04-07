@@ -50,6 +50,14 @@ header {
     padding: 10vh;
 }
 
+.main-content {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
 section {
     padding: 10px;
     text-align: center;
@@ -72,7 +80,16 @@ footer {
 .links {
     padding: 10em;
 }
-footer p {
+footer p, footer a{
     padding: 1em;
+    color: #ccc;
 }
 
+.icon {
+    padding-right: 0.5em;
+    font-size: 1.5em;
+}
+
+.social-icons {
+    font-size: 2em;
+}
